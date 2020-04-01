@@ -47,6 +47,7 @@ html {
 	font-size: 16px;
 	color: #757575;
 	overflow-x: hidden;
+	overflow-y: auto;
 	background: #ffffff;
 }
 /*------------------custom css----------------*/
@@ -5766,3 +5767,6 @@ ul {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 }
+ul.list-inline li {
+	display:inline;
+	}

@@ -1,18 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--
 Template Name:Couronne
 -->
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="en">
 <!--[endif]-->
 
 
 <!-- Mirrored from webstrot.com/html/couronne/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Apr 2020 13:52:17 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<!-- /Added by HTTrack -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8" />
     <title>Couronne - Coronavirus, Hospital and Health HTML Template </title>
@@ -22,22 +20,18 @@ Template Name:Couronne
     <meta name="author" content="" />
     <meta name="MobileOptimized" content="320" />
     <!-- style -->
-    <link rel="stylesheet" type="text/css" href="{{asset("theme/css/animate.css")}}">
-    <link rel="stylesheet" type="text/css" href="{{asset("theme/css/bootstrap.min.css")}}">
-    <link rel="stylesheet" type="text/css" href="{{asset("theme/css/font-awesome.min.css")}}">
-    <link rel="stylesheet" type="text/css" href="{{asset("theme/css/owl.carousel.css")}}">
-    <link rel="stylesheet" type="text/css" href="{{asset("theme/css/magnific-popup.css")}}">
-    <link rel="stylesheet" type="text/css" href="{{asset("theme/css/owl.theme.default.css")}}">
-    <link rel="stylesheet" type="text/css" href="{{asset("theme/css/flaticon.css")}}">
-    <link rel="stylesheet" type="text/css" href="{{asset("theme/css/fonts.css")}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset("theme/css/style.css")}}">
-    <link rel="stylesheet" type="text/css" href="{{asset("theme/css/responsive.css")}}" />
-
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!-- favicon link-->
+    <link rel="shortcut icon" type="image/icon" href="images/corona/favicon.png" />
 </head>
 
 <body>
@@ -53,15 +47,13 @@ Template Name:Couronne
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="top_header_add">
                         <ul>
-                            <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Address :</span> -512/fonia,canada</li>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i><span>Call us :</span> +61 5001444-122</li>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Roma,Italy</li>
                             <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"><span>Email :</span> dummy@example.com</a></li>
                         </ul>
                     </div>
                     <div class="header_social">
                         <ul>
                             <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         </ul>
@@ -99,39 +91,10 @@ Template Name:Couronne
                                 </li>
                                 <li class="has-mega gc_main_navigation"><a href="about_us_corona.html" class="gc_main_navigation hover_color">Corona&nbsp; </a>
                                 </li>
-                                <li class="has-mega gc_main_navigation"><a href="symptoms.html" class="gc_main_navigation hover_color"> symptoms&nbsp; </a>
+                                <li class="has-mega gc_main_navigation"><a href="contact_us.html" class="gc_main_navigation hover_color"> contact us&nbsp; </a>
 
                                 </li>
-                                <li class="has-mega gc_main_navigation"><a href="prevention.html" class="gc_main_navigation hover_color"> prevention&nbsp;</a>
-                                </li>
-                                <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation hover_color"> Pages&nbsp;</a>
-                                    <ul>
-                                        <li class="parent"><a href="gallery_3.html">Gallery</a>
-                                        </li>
-                                        <li class="parent"><a href="our_doctors.html">our doctors</a>
-                                        </li>
-                                        <li class="parent"><a href="doctor.html">doctor single</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation hover_color"> blog&nbsp; </a>
-                                    <ul>
-                                        <li class="parent"><a href="blog_category.html">blog category</a>
-                                        </li>
-                                        <li class="parent"><a href="blog_single.html">blog single</a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                                <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation hover_color"> contact&nbsp; </a>
-                                    <ul>
-                                        <li class="parent"><a href="contact_us.html">contact us</a>
-                                        </li>
-                                        <li class="parent"><a href="appointment.html">appointment</a>
-                                        </li>
-
-                                    </ul>
-                                </li>
+                                  
                                 <li class="has-mega gc_main_navigation"><a class="btn" href="https://pmny.in/AIEqYkgwh4gi" target="_blank">Donate</a></li>
 
                             </ul>
@@ -230,8 +193,8 @@ Template Name:Couronne
                                         <h2 data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutDown">Whats Is Covid-19?</h2>
                                         <p data-animation-in="zoomIn" data-animation-out="animate-out zoomIn">3D medical animation, depicting the shape of coronavirus as well as the cross-sectional view. Image shows the major elements including the Spike S protein, HE protein, viral envelope, and helical RNA</p>
                                         <ul>
-                                            <li data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutLeft"><a href="#">READ MORE</a></li>
-                                            <li data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutLeft"><a href="#">PURCHASE</a></li>
+                                            <li data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutLeft"><a href="#">donate</a></li>
+                                           
                                         </ul>
                                     </div>
                                 </div>
@@ -373,9 +336,83 @@ Template Name:Couronne
     </div>
     <!--about us wrapper end-->
 
+
+    <!--vedio wrapper start-->
+    <div class="vedio_wrapper">
+        <div class="vedio_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="vedio_heading_wrapper wow fadeIn" data-wow-delay="0.3s">
+                        <h1 class="med_bottompadder20">Protect yourself: advice for the public</h1>
+                        <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
+                        <p>Symptoms of Coronavirus 2019</p>
+                        <h4><a class="popup-youtube" href="https://www.youtube.com/embed/BtN-goy9VOY"><img src="images/corona/play-icon.png" alt="Play"> play video</a></h4>
+                        <div class="video_btn_wrapper right">
+                            <ul>
+                                <li><a class="btn" href="about_us_corona.html">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- counter wrapper start-->
+    <div class="counter_section">
+        <div class="counter-section med_bottommargin100 section-padding" data-stellar-background-ratio="0.5">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="icon">
+                            <a href="#"><img src="images/png/success.png" alt="img" class="img-responsive"></a>
+                        </div>
+                        <div class="count-description">
+                            <span class="timer">187</span>
+                            <h5 class="con2">Total Countries</h5>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="icon">
+                            <a href="#"><img src="images/png/patient.png" alt="img" class="img-responsive"></a>
+                        </div>
+                        <div class="count-description">
+                            <span class="timer">294110</span>
+                            <h5 class="con1">Confirmed cases</h5>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="icon">
+                            <a href="#"><img src="images/png/doctor.png" alt="img" class="img-responsive"></a>
+                        </div>
+                        <div class="count-description">
+                            <span class="timer">12944</span>
+                            <h5 class="con2">Confirmed deaths</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="icon">
+                            <a href="#"><img src="images/png/heart.png" alt="img" class="img-responsive"></a>
+                        </div>
+                        <div class="count-description">
+                            <span class="timer">1020200</span>
+                            <h5 class="con4">Quarantine People</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- counter wrapper end-->
+
    
-    <!--appoint wrapper end-->
-    @yield('content')
+   
+  
+   
+  
     <!-- footer wrapper start-->
     <div class="footer_wrapper">
         <div class="container">
@@ -385,8 +422,7 @@ Template Name:Couronne
                         <div class="address_main">
                             <div class="footer_widget_add">
                                 <a href="#"><img src="images/corona/index_2_logo.png" class="img-responsive" alt="footer_logo" /></a>
-                                <p>The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes...</p>
-                                <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+        
                             </div>
                             <div class="footer_box_add">
                                 <ul>
@@ -405,56 +441,24 @@ Template Name:Couronne
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="footer_main_wrapper">
                             <div class="row">
-                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 gallary_response  d-md-none d-lg-block">
-                                    <div class="footer_heading">
-                                        <h1 class="med_bottompadder10">Instagram</h1>
-                                        <img src="images/line.png" class="img-responsive" alt="img" />
-                                    </div>
-                                    <div class="footer_gallary">
-                                        <div class="row">
-                                            <ul>
-                                                <li><img src="images/corona/footer_1.jpg" alt="img" class="img-responsive"></li>
-                                                <li><img src="images/corona/footer_2.jpg" alt="img" class="img-responsive"></li>
-                                                <li><img src="images/corona/footer_3.jpg" alt="img" class="img-responsive"></li>
-                                                <li><img src="images/corona/footer_4.jpg" alt="img" class="img-responsive"> </li>
-                                                <li> <img src="images/corona/footer_5.jpg" alt="img" class="img-responsive"> </li>
-                                                <li> <img src="images/corona/footer_6.jpg" alt="img" class="img-responsive"> </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                               
                                 <!--footer_2-->
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 respons_footer_nav d-none d-sm-none d-md-block">
+                                <div class="col-xl-12 col-lg-12 col-md-21 col-sm-12 col-12 respons_footer_nav d-none d-sm-none d-md-block">
                                     <div class="footer_heading footer_menu">
-                                        <h1 class="med_bottompadder10">Userful</h1>
+                                        <h1 class="med_bottompadder10">Links</h1>
                                         <img src="images/line.png" class="img-responsive" alt="img" />
                                     </div>
                                     <div class="footer_ul_wrapper">
-                                        <ul>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">Corona </a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">Protect</a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">Symptoms</a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">Testing</a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">blog</a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">contact</a></li>
+                                        
+                                        <ul class="list-inline">
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">Home </a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">what;s is corona</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">conect us</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">donate</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <!--footer_3-->
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 contact_last_div">
-                                    <div class="footer_heading">
-                                        <h1 class="med_bottompadder10">Infected Countries</h1>
-                                        <img src="images/line.png" class="img-responsive" alt="img" />
-                                    </div>
-                                    <div class="footer_cnct">
-                                        <p>China -----------------<span>81,093</span></p>
-                                        <p>Italy -----------------<span>59,138</span></p>
-                                        <p>USA -------------------<span>35,070</span></p>
-                                        <p>Spain -------------------<span>33,089</span></p>
-                                        <p>Germany -------------------<span>26,220</span></p>
-                                    </div>
-                                </div>
-                                <!--footer_4-->
+                               
                             </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -487,16 +491,19 @@ Template Name:Couronne
     </div>
     <!--footer wrapper end-->
     <!--main js files-->
-    <script src="{{asset("theme/js/jquery-3.3.1.min.js")}}"></script>
-    <script src="{{asset("theme/js/bootstrap.min.js")}}"></script>
-    <script src="{{asset("theme/js/jquery.countTo.js")}}"></script>
-    <script src="{{asset("theme/js/jquery.inview.min.js")}}"></script>
-    <script src="{{asset("theme/js/wow.min.js")}}"></script>
-    <script src="{{asset("theme/js/owl.carousel.js")}}"></script>
-    <script src="{{asset("theme/js/jquery.magnific-popup.js")}}"></script>
-    <script src="{{asset("theme/js/imagesloaded.pkgd.min.js")}}"></script>
-    <script src="{{asset("theme/js/isotope.pkgd.min.js")}}"></script>
-    <script src="{{asset("theme/js/custom.js")}}"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/custom.js"></script>
     <!--js code-->
 </body>
+
+
+<!-- Mirrored from webstrot.com/html/couronne/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Apr 2020 13:55:12 GMT -->
 </html>
