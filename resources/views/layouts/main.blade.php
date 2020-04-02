@@ -20,16 +20,16 @@ Template Name:Couronne
     <meta name="author" content="" />
     <meta name="MobileOptimized" content="320" />
     <!-- style -->
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/animate.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/owl.carousel.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/magnific-popup.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/owl.theme.default.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/flaticon.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/fonts.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/responsive.css')}}" />
     <!-- favicon link-->
     <link rel="shortcut icon" type="image/icon" href="images/corona/favicon.png" />
 </head>
@@ -37,7 +37,7 @@ Template Name:Couronne
 <body>
     <!-- preloader Start -->
     <div id="preloader">
-        <div id="status"><img src="images/preloader.gif" id="preloader_image" alt="loader">
+        <div id="status"><img src="{{asset('theme/images/preloader.gif')}}" id="preloader_image" alt="loader">
         </div>
     </div>
     <!--top header start-->
@@ -68,7 +68,7 @@ Template Name:Couronne
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 wow bounceInDown" data-wow-delay="0.3s">
                     <div class="header_logo">
-                        <a href="index.html" class="hidden-xs"><img src="images/corona/logo2.png" alt="logo" title="logo" class="img-responsive  d-none d-sm-none d-md-block d-lg-block"></a>
+                        <a href="index.html" class="hidden-xs"><img src="{{asset('theme/images/corona/logo2.png')}}" alt="logo" title="logo" class="img-responsive  d-none d-sm-none d-md-block d-lg-block"></a>
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-10 col-xs-12">
@@ -87,7 +87,7 @@ Template Name:Couronne
                         <div class="mainmenu  d-xl-block d-lg-block d-md-block d-sm-none d-none">
                             <ul class="main_nav_ul">
 
-                                <li class="has-mega gc_main_navigation"><a href="index.html" class="gc_main_navigation hover_color"> Home&nbsp; </a>
+                                <li class="has-mega gc_main_navigation"><a href="{{url('/')}}" class="gc_main_navigation hover_color"> Home&nbsp; </a>
                                 </li>
                                 <li class="has-mega gc_main_navigation"><a href="about_us_corona.html" class="gc_main_navigation hover_color">Corona&nbsp; </a>
                                 </li>
@@ -108,7 +108,7 @@ Template Name:Couronne
                     <div class="row">
                         <div class="col-xl-6">
                             <div class="gc_logo logo_hidn d-block d-sm-block d-md-none d-lg-none d-xl-none">
-                                <a href="#"><img src="images/corona/logo.png" class="img-responsive" alt="logo"></a>
+                                <a href="#"><img src="{{asset('theme/images/corona/logo.png')}}" class="img-responsive" alt="logo"></a>
                             </div>
                         </div>
 
@@ -256,10 +256,10 @@ Template Name:Couronne
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="cat_about">
                         <div class="icon_wrapper">
-                            <img src="images/corona/icon1.png" alt="img" class="img-responsive">
+                            <img src="{{asset('theme/images/corona/icon1.png')}}" alt="img" class="img-responsive">
                         </div>
                         <div class="cat_img">
-                            <img src="images/corona/icon_11.png" alt="img" class="img-responsive">
+                            <img src="{{asset('theme/images/corona/icon_11.png')}}" alt="img" class="img-responsive">
                         </div>
                         <div class="cat_txt">
                             <h1>OVERVIEW</h1>
@@ -271,10 +271,10 @@ Template Name:Couronne
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="cat_about">
                         <div class="icon_wrapper">
-                            <img src="images/corona/icon2.png" alt="img" class="img-responsive">
+                            <img src="{{asset('theme/images/corona/icon2.png')}}" alt="img" class="img-responsive">
                         </div>
                         <div class="cat_img">
-                            <img src="images/corona/icon_2.png" alt="img" class="img-responsive">
+                            <img src="{{asset('theme/images/corona/icon_2.png')}}" alt="img" class="img-responsive">
                         </div>
                         <div class="cat_txt">
                             <h1>PREVENTION</h1>
@@ -286,10 +286,10 @@ Template Name:Couronne
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="cat_about">
                         <div class="icon_wrapper">
-                            <img src="images/corona/icon3.png" alt="img" class="img-responsive">
+                            <img src="{{asset('theme/images/corona/icon3.png')}}" alt="img" class="img-responsive">
                         </div>
                         <div class="cat_img cat_img_3">
-                            <img src="images/corona/icon_3.png" alt="img" class="img-responsive">
+                            <img src="{{asset('theme/images/corona/icon_3.png')}}" alt="img" class="img-responsive">
                         </div>
                         <div class="cat_txt">
                             <h1>SYMPTOMS</h1>
@@ -308,13 +308,13 @@ Template Name:Couronne
             <div class="row">
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="abt_img abt_box">
-                        <img src="images/corona/abt_img.jpg" alt="img" class="img-responsive">
+                        <img src="{{asset('theme/images/corona/abt_img.jpg')}}" alt="img" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 abt_section">
                     <div class="abt_heading_wrapper">
                         <h1 class="med_bottompadder20">How COVID-19 Spreads</h1>
-                        <img src="images/line.png" alt="title" class="med_bottompadder20">
+                        <img src="{{asset('theme/images/line.png')}}" alt="title" class="med_bottompadder20">
                     </div>
                     <div class="abt_txt">
                         <h3>Person-to-person spread</h3>
@@ -345,9 +345,9 @@ Template Name:Couronne
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="vedio_heading_wrapper wow fadeIn" data-wow-delay="0.3s">
                         <h1 class="med_bottompadder20">Protect yourself: advice for the public</h1>
-                        <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
+                        <img src="{{asset('theme/images/Icon_team.png')}}" alt="line" class="med_bottompadder20">
                         <p>Symptoms of Coronavirus 2019</p>
-                        <h4><a class="popup-youtube" href="https://www.youtube.com/embed/BtN-goy9VOY"><img src="images/corona/play-icon.png" alt="Play"> play video</a></h4>
+                        <h4><a class="popup-youtube" href="https://www.youtube.com/embed/BtN-goy9VOY"><img src="{{asset('theme/images/corona/play-icon.png')}}" alt="Play"> play video</a></h4>
                         <div class="video_btn_wrapper right">
                             <ul>
                                 <li><a class="btn" href="about_us_corona.html">About Us</a></li>
@@ -366,7 +366,7 @@ Template Name:Couronne
                 <div class="row">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                         <div class="icon">
-                            <a href="#"><img src="images/png/success.png" alt="img" class="img-responsive"></a>
+                            <a href="#"><img src="{{asset('theme/images/png/success.png')}}" alt="img" class="img-responsive"></a>
                         </div>
                         <div class="count-description">
                             <span class="timer">187</span>
@@ -375,7 +375,7 @@ Template Name:Couronne
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                         <div class="icon">
-                            <a href="#"><img src="images/png/patient.png" alt="img" class="img-responsive"></a>
+                            <a href="#"><img src="{{asset('theme/images/png/patient.png')}}" alt="img" class="img-responsive"></a>
                         </div>
                         <div class="count-description">
                             <span class="timer">294110</span>
@@ -384,7 +384,7 @@ Template Name:Couronne
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                         <div class="icon">
-                            <a href="#"><img src="images/png/doctor.png" alt="img" class="img-responsive"></a>
+                            <a href="#"><img src="{{asset('theme/images/png/doctor.png')}}" alt="img" class="img-responsive"></a>
                         </div>
                         <div class="count-description">
                             <span class="timer">12944</span>
@@ -394,7 +394,7 @@ Template Name:Couronne
 
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                         <div class="icon">
-                            <a href="#"><img src="images/png/heart.png" alt="img" class="img-responsive"></a>
+                            <a href="#"><img src="{{asset('theme/images/png/heart.png')}}" alt="img" class="img-responsive"></a>
                         </div>
                         <div class="count-description">
                             <span class="timer">1020200</span>
@@ -421,7 +421,7 @@ Template Name:Couronne
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="address_main">
                             <div class="footer_widget_add">
-                                <a href="#"><img src="images/corona/index_2_logo.png" class="img-responsive" alt="footer_logo" /></a>
+                                <a href="#"><img src="{{asset('theme/images/corona/index_2_logo.png')}}" class="img-responsive" alt="footer_logo" /></a>
         
                             </div>
                             <div class="footer_box_add">
@@ -446,12 +446,12 @@ Template Name:Couronne
                                 <div class="col-xl-12 col-lg-12 col-md-21 col-sm-12 col-12 respons_footer_nav d-none d-sm-none d-md-block">
                                     <div class="footer_heading footer_menu">
                                         <h1 class="med_bottompadder10">Links</h1>
-                                        <img src="images/line.png" class="img-responsive" alt="img" />
+                                        <img src="{{asset('theme/images/line.png')}}" class="img-responsive" alt="img" />
                                     </div>
                                     <div class="footer_ul_wrapper">
                                         
                                         <ul class="list-inline">
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">Home </a></li>
+                                        <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="{{url('/')}}">Home </a></li>
                                             <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">what;s is corona</a></li>
                                             <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">conect us</a></li>
                                             <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">donate</a></li>
@@ -491,16 +491,16 @@ Template Name:Couronne
     </div>
     <!--footer wrapper end-->
     <!--main js files-->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/jquery.inview.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{asset('theme/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('theme/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.countTo.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.inview.min.js')}}"></script>
+    <script src="{{asset('theme/js/wow.min.js')}}"></script>
+    <script src="{{asset('theme/js/owl.carousel.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.magnific-popup.js')}}"></script>
+    <script src="{{asset('theme/js/imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{asset('theme/js/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('theme/js/custom.js')}}"></script>
     <!--js code-->
 </body>
 
