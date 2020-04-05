@@ -89,12 +89,12 @@ Template Name:Couronne
 
                                 <li class="has-mega gc_main_navigation"><a href="{{url('/')}}" class="gc_main_navigation hover_color"> Home&nbsp; </a>
                                 </li>
-                                <li class="has-mega gc_main_navigation"><a href="about_us_corona.html" class="gc_main_navigation hover_color">Corona&nbsp; </a>
+                                <li class="has-mega gc_main_navigation"><a href="{{url('/corona')}}" class="gc_main_navigation hover_color">Corona&nbsp; </a>
                                 </li>
-                                <li class="has-mega gc_main_navigation"><a href="contact_us.html" class="gc_main_navigation hover_color"> contact us&nbsp; </a>
+                                <li class="has-mega gc_main_navigation"><a href="{{url('/contact_us')}}" class="gc_main_navigation hover_color"> contact us&nbsp; </a>
 
                                 </li>
-                                  
+
                                 <li class="has-mega gc_main_navigation"><a class="btn" href="https://pmny.in/AIEqYkgwh4gi" target="_blank">Donate</a></li>
 
                             </ul>
@@ -194,7 +194,7 @@ Template Name:Couronne
                                         <p data-animation-in="zoomIn" data-animation-out="animate-out zoomIn">3D medical animation, depicting the shape of coronavirus as well as the cross-sectional view. Image shows the major elements including the Spike S protein, HE protein, viral envelope, and helical RNA</p>
                                         <ul>
                                             <li data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutLeft"><a href="#">donate</a></li>
-                                           
+
                                         </ul>
                                     </div>
                                 </div>
@@ -358,7 +358,7 @@ Template Name:Couronne
             </div>
         </div>
     </div>
-    
+
     <!-- counter wrapper start-->
     <div class="counter_section">
         <div class="counter-section med_bottommargin100 section-padding" data-stellar-background-ratio="0.5">
@@ -408,11 +408,11 @@ Template Name:Couronne
     </div>
     <!-- counter wrapper end-->
 
-   
-   
-  
-   
-  
+
+
+
+
+
     <!-- footer wrapper start-->
     <div class="footer_wrapper">
         <div class="container">
@@ -422,7 +422,7 @@ Template Name:Couronne
                         <div class="address_main">
                             <div class="footer_widget_add">
                                 <a href="#"><img src="{{asset('theme/images/corona/index_2_logo.png')}}" class="img-responsive" alt="footer_logo" /></a>
-        
+
                             </div>
                             <div class="footer_box_add">
                                 <ul>
@@ -441,7 +441,7 @@ Template Name:Couronne
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="footer_main_wrapper">
                             <div class="row">
-                               
+
                                 <!--footer_2-->
                                 <div class="col-xl-12 col-lg-12 col-md-21 col-sm-12 col-12 respons_footer_nav d-none d-sm-none d-md-block">
                                     <div class="footer_heading footer_menu">
@@ -449,16 +449,16 @@ Template Name:Couronne
                                         <img src="{{asset('theme/images/line.png')}}" class="img-responsive" alt="img" />
                                     </div>
                                     <div class="footer_ul_wrapper">
-                                        
+
                                         <ul class="list-inline">
                                         <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="{{url('/')}}">Home </a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">what;s is corona</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">whats is corona</a></li>
                                             <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">conect us</a></li>
                                             <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">donate</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                               
+
                             </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">

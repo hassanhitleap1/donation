@@ -17,6 +17,16 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/corona', function () {
+    return view('corona');
+});
+
+Route::get('/contact_us', function () {
+    return view('contact_us');
+});
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
