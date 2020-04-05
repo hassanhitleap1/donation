@@ -13,7 +13,7 @@ Template Name:Couronne
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8" />
-    <title>Couronne - Coronavirus, Hospital and Health HTML Template </title>
+    <title>Coronavirus, covid-19 italy</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Couronne" />
     <meta name="keywords" content="medical/Couronne/hospital" />
@@ -48,7 +48,7 @@ Template Name:Couronne
                     <div class="top_header_add">
                         <ul>
                             <li><i class="fa fa-map-marker" aria-hidden="true"></i> Roma,Italy</li>
-                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"><span>Email :</span> dummy@example.com</a></li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"><span>Email :</span> support@covid-19-italy.org</a></li>
                         </ul>
                     </div>
                     <div class="header_social">
@@ -164,7 +164,7 @@ Template Name:Couronne
                             </li>
                             <li class='has-sub'><a href='#'>contact</a>
                                 <ul>
-                                    <li><a href="contact_us.html">contact us</a></li>
+                                    <li><a href="{{url('/contact_us')}}">contact us</a></li>
                                     <li><a href="appointment.html">appointment </a></li>
                                 </ul>
                             </li>
@@ -195,8 +195,7 @@ Template Name:Couronne
                             <div class="footer_box_add">
                                 <ul>
                                     <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Address : </span>-512/fonia,canada</li>
-                                    <li><i class="fa fa-phone" aria-hidden="true"></i><span>Call us : </span>+61 5001444-122</li>
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"><span>Email :</span> dummy@example.com</a></li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"><span>Email :</span>support@covid-19-italy.org</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -219,9 +218,9 @@ Template Name:Couronne
                                     <div class="footer_ul_wrapper">
 
                                         <ul class="list-inline">
-                                        <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="{{url('/')}}">Home </a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">whats is corona</a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">conect us</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="{{url('/description')}}">description</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="{{url('/privacy-policy')}}">privacy policy</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="{{url('/terms-conditions')}}">terms conditions</a></li>
                                             <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">donate</a></li>
                                         </ul>
                                     </div>
@@ -233,7 +232,7 @@ Template Name:Couronne
                             <div class="footer_botm_wrapper">
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="bottom_footer_copy_wrapper">
-                                        <span>Copyright © 2020- <a href="#">Couronne</a>Design by <a href="#">Webstrot.</a></span>
+                                        <span>Copyright © 2020 -  <a href="#">covid-19-italy.org</span>
                                     </div>
                                     <div class="footer_btm_icon">
                                         <ul>
